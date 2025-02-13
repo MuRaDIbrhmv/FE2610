@@ -2,7 +2,7 @@ let car = {
     brand: "Porche",
     model: "911 GT3 RS",
     year: 2024,
-    getCarInfo: function() {
+    getCarInfo:function () {
         console.log(`Car is ${this.brand} model ${this.model}`)
     },
     updateYear: function(newY) {
@@ -11,7 +11,7 @@ let car = {
     displayInfo() {
         setTimeout( () => {
           console.log(`Car: ${this.brand}, Model: ${this.model}, Year: ${this.year}`);
-        }, 100); 
+        }, 1000); 
       },
 }
 

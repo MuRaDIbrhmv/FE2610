@@ -37,7 +37,9 @@
 .cardimg>img:hover{
     width: 300px;
     transform: scale(1.07);
+
 }
+
 
 h1{
     color: rgb(3, 134, 3);

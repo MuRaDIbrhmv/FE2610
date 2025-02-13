@@ -29548,6 +29548,8 @@ for(let i = 0; i < idArray.length;i++){
     }
 }
 console.log("---------------------------------------------------------")
+
+
 //TASK 3
 
 for(let i = 0; i < idArray.length;i++){
@@ -29570,6 +29572,10 @@ let sum = 0;
 for(let i = 0; i < idArray.length;i++){
     if (idArray[i].id === 10310){
         for(key in idArray[i].details){
+          console.log(idArray[i].details[key])
+          for (const element of key) {
+            
+          }
             sum += idArray[i].details[key].quantity * idArray[i].details[key].unitPrice * (1-idArray[i].details[key].discount)
         }
     }
